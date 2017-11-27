@@ -1,0 +1,80 @@
+body {
+    background-color: grey;
+    font-size: 1.5em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 80em;
+}
+
+
+/******** HEADER *********/
+
+#header {
+    width: 41.25em;
+    padding: 1em;
+    margin: 1em 19.375em 1em 19.375em;
+    background-color: #1C2C53;
+    color: #FF0000;
+    border: 1.5px solid #FF0000;
+}
+
+#inner {
+    text-align: center;
+}
+
+
+/******** NAV *********/
+
+#nav {
+    width: 41.25em;
+    padding: 1em;
+    margin: 1em 19.375em 1em 19.375em;
+    background-color: #1C2C53;
+    color: #FF0000;
+    border: 1.5px solid #FF0000;
+}
+
+#van {
+    text-align: center;
+}
+
+
+/******** SECTIOn *********/
+
+#section {
+    float: left;
+    width: 20.833em;
+    padding: 1em;
+    margin: 1em 9.6875em 5em 0;
+    background-color: #1C2C53;
+    color: #FF0000;
+    border: 1.5px solid #FF0000;
+}
+
+
+/******** ASIDE *********/
+
+#aside {
+    float: rigt;
+    width: 20.417em;
+    padding: 1em;
+    margin: 1em 0 1em 9.6875em;
+    background-color: #1C2C53;
+    color: #FF0000;
+    border: 1.5px solid #FF0000;
+}
+
+
+/******** FOOTER *********/
+
+#footer {
+    width: 41.25em;
+    padding: 1em;
+    margin: 1em 19.375em 1em 19.375em;
+    background-color: #1C2C53;
+    color: #FF0000;
+    border: 1.5px solid #FF0000;
+}
+
+#bottom {
+    text-align: center;
+}
