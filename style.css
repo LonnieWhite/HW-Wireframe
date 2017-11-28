@@ -6,7 +6,7 @@ body {
 }
 
 
-/******** HEADER *********/
+/************ HEADER **********/
 
 #header {
     width: 41.25em;
@@ -22,7 +22,7 @@ body {
 }
 
 
-/******** NAV *********/
+/********** NAV **********/
 
 #nav {
     width: 41.25em;
@@ -38,35 +38,77 @@ body {
 }
 
 
-/******** SECTIOn *********/
+/******** COMPLICATED DIV *********/
+
+#complicated {
+    width: 43em;
+    height: 19em;
+    margin: 1em 19.3754em 1em 19.375em;
+}
+
+
+/** section **/
 
 #section {
     float: left;
-    width: 20.833em;
+    width: 25em;
     padding: 1em;
-    margin: 1em 9.6875em 5em 0;
     background-color: #1C2C53;
     color: #FF0000;
     border: 1.5px solid #FF0000;
+    margin: 0 0em 0 0;
+}
+
+#sectionName {
+    text-align: center;
+}
+
+#article {
+    background-color: grey;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+}
+
+.article {
+    text-align: center;
+}
+
+#h {
+    background-color: #1C2C53;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+#p {
+    background-color: #1C2C53;
+    margin: .5em 0 .5em 0;
+    text-align: center;
+    padding: 1em 0 1em 0;
 }
 
 
-/******** ASIDE *********/
+/** aside **/
 
 #aside {
-    float: rigt;
-    width: 20.417em;
-    padding: 1em;
-    margin: 1em 0 1em 9.6875em;
+    width: 12em;
+    height: 19.25em;
+    float: right;
     background-color: #1C2C53;
     color: #FF0000;
     border: 1.5px solid #FF0000;
+    margin: 0 0 1em 3em;
+    padding: 0 0em 0 0;
+}
+
+.aside {
+    text-align: center;
 }
 
 
-/******** FOOTER *********/
+/********** FOOTER ***********/
 
-#footer {
+footer {
+    clear: both;
     width: 41.25em;
     padding: 1em;
     margin: 1em 19.375em 1em 19.375em;
